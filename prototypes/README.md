@@ -1,6 +1,6 @@
 # Visual prototype — read this first
 
-`mechanism-100-100-visual-prototype.html` is a UI/interaction sketch submitted by the author to illustrate the aspiration of reaching a $1,000 balance through repeated zone entries and net-target exits.
+`mechanism-100-100-visual-prototype.html` (French) and `mechanism-100-100-visual-prototype_EN.html` (English, same file, every label and script string translated, identical math) are a UI/interaction sketch submitted by the author to illustrate the aspiration of reaching a $1,000 balance through repeated zone entries and net-target exits. Download either one and open it in a browser — GitHub only displays the source code, it never runs the page.
 
 **It is not a backtest, not a live trading report, and not evidence that the strategy wins.** The animated price path is hand-authored, not fetched from historical market data. The prototype transitions to a win when its synthetic path reaches the target; it does not represent a complete distribution of losing, expired, rejected, partially filled, or unresolved trades. The visible `$4.77` start, `$1,000` target, and repeated day counter are illustrative values and must not be interpreted as a verified account statement or timeline.
 
