@@ -18,17 +18,17 @@ I am sharing the research because the failures, uncertainties, data pipeline, an
 
 ### The goal, stated plainly — this is the ambitious target, not a claim it has been hit
 
-| Win rate | Net profit per day (1,520 trades, $1 stake, +$0.9601/−$1.0567) |
-|---|---:|
-| 100% | +$1,459.35 |
-| 90% | +$1,152.70 |
-| 80% | +$846.05 |
-| 70% | +$539.40 |
-| 65% | +$386.35 |
-| 60% | +$233.30 |
-| 55% | +$79.80 |
-| **52.4%** | **≈ $0 — break-even** |
-| 50% | −$73.50 |
+| Win rate | Winners | Losers | Net profit per day (1,520 trades, $1 stake, +$0.9601/−$1.0567) |
+|---|---:|---:|---:|
+| 100% | 1,520 | 0 | +$1,459.35 |
+| 90% | 1,368 | 152 | +$1,152.70 |
+| 80% | 1,216 | 304 | +$846.05 |
+| 70% | 1,064 | 456 | +$539.40 |
+| 65% | 988 | 532 | +$386.35 |
+| 60% | 912 | 608 | +$233.30 |
+| 55% | 836 | 684 | +$79.80 |
+| **52.4%** | **796** | **724** | **≈ $0 — break-even** |
+| 50% | 760 | 760 | −$73.50 |
 
 Starting capital: $4.77. Target: $1,000. Same dollar reused, not grown. This table is arithmetic, not a forecast — see [What the current evidence says](#what-the-current-evidence-says) for what has actually been measured against it.
 

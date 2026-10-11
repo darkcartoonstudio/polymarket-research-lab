@@ -18,17 +18,17 @@ Je partage les recherches parce que les erreurs, les incertitudes, les données 
 
 ### L'objectif, dit sans détour — c'est l'ambition visée, pas une affirmation qu'elle est atteinte
 
-| Win rate | Profit net par jour (1 520 trades, mise 1 $, +0,9601 $/−1,0567 $) |
-|---|---:|
-| 100 % | +1 459,35 $ |
-| 90 % | +1 152,70 $ |
-| 80 % | +846,05 $ |
-| 70 % | +539,40 $ |
-| 65 % | +386,35 $ |
-| 60 % | +233,30 $ |
-| 55 % | +79,80 $ |
-| **52,4 %** | **≈ 0 $ — seuil de rentabilité** |
-| 50 % | −73,50 $ |
+| Win rate | Gagnants | Perdants | Profit net par jour (1 520 trades, mise 1 $, +0,9601 $/−1,0567 $) |
+|---|---:|---:|---:|
+| 100 % | 1 520 | 0 | +1 459,35 $ |
+| 90 % | 1 368 | 152 | +1 152,70 $ |
+| 80 % | 1 216 | 304 | +846,05 $ |
+| 70 % | 1 064 | 456 | +539,40 $ |
+| 65 % | 988 | 532 | +386,35 $ |
+| 60 % | 912 | 608 | +233,30 $ |
+| 55 % | 836 | 684 | +79,80 $ |
+| **52,4 %** | **796** | **724** | **≈ 0 $ — seuil de rentabilité** |
+| 50 % | 760 | 760 | −73,50 $ |
 
 Capital de départ : 4,77 $. Cible : 1 000 $. Le même dollar réengagé, jamais capitalisé. Ce tableau est de l'arithmétique, pas une prévision — voir [Ce que disent les résultats actuels](#ce-que-disent-les-résultats-actuels) pour ce qui est réellement mesuré face à cette ambition.
 
