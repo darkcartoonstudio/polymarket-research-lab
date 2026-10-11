@@ -16,6 +16,24 @@ Cette curiosité est devenue un projet de recherche. J'ai commencé à collecter
 
 Je partage les recherches parce que les erreurs, les incertitudes, les données et même les résultats négatifs peuvent aider quelqu'un. Je cherche des retours de personnes qui connaissent les marchés prédictifs, la microstructure, l'exécution, les statistiques et la recherche quantitative.
 
+### L'objectif, dit sans détour — c'est l'ambition visée, pas une affirmation qu'elle est atteinte
+
+| Win rate | Profit net par jour (1 520 trades, mise 1 $, +0,9601 $/−1,0567 $) |
+|---|---:|
+| 100 % | +1 459,35 $ |
+| 90 % | +1 152,70 $ |
+| 80 % | +846,05 $ |
+| 70 % | +539,40 $ |
+| 65 % | +386,35 $ |
+| 60 % | +233,30 $ |
+| 55 % | +79,80 $ |
+| **52,4 %** | **≈ 0 $ — seuil de rentabilité** |
+| 50 % | −73,50 $ |
+
+Capital de départ : 4,77 $. Cible : 1 000 $. Le même dollar réengagé, jamais capitalisé. Ce tableau est de l'arithmétique, pas une prévision — voir [Ce que disent les résultats actuels](#ce-que-disent-les-résultats-actuels) pour ce qui est réellement mesuré face à cette ambition.
+
+Les chiffres +0,9601 $ et −1,0567 $ ci-dessus sont des **moyennes mesurées** sur de nombreux trades dans les données de l'auteur, distinctes de l'**exemple à un seul prix d'entrée, +0,95 $ / −1,056 $**, détaillé dans [la note de comptabilité du TP](docs/take-profit-accounting-fr.md) — c'est pourquoi le seuil de 52,4 % de ce tableau et le seuil de 52,64 % de cette note sont deux nombres différents, non interchangeables, pas une coquille.
+
 ## La stratégie que je cherche à tester
 
 La piste principale est le **micro-scalping par zones de prix sur les marchés Polymarket BTC Up/Down de cinq minutes**. Le bot n'est pas validé pour du trading réel sans surveillance ; la stratégie reste une hypothèse.

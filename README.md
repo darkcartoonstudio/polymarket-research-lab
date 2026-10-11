@@ -16,6 +16,24 @@ That curiosity became a research project. I began collecting data, grouping entr
 
 I am sharing the research because the failures, uncertainties, data pipeline, and negative results may be useful to someone else. I want feedback from people who know prediction markets, market microstructure, execution systems, statistics, and quantitative research. If these notes help someone avoid a mistake, that is already useful.
 
+### The goal, stated plainly — this is the ambitious target, not a claim it has been hit
+
+| Win rate | Net profit per day (1,520 trades, $1 stake, +$0.9601/−$1.0567) |
+|---|---:|
+| 100% | +$1,459.35 |
+| 90% | +$1,152.70 |
+| 80% | +$846.05 |
+| 70% | +$539.40 |
+| 65% | +$386.35 |
+| 60% | +$233.30 |
+| 55% | +$79.80 |
+| **52.4%** | **≈ $0 — break-even** |
+| 50% | −$73.50 |
+
+Starting capital: $4.77. Target: $1,000. Same dollar reused, not grown. This table is arithmetic, not a forecast — see [What the current evidence says](#what-the-current-evidence-says) for what has actually been measured against it.
+
+The +$0.9601 and −$1.0567 figures here are **measured average** outcomes across many trades in the author's own data, distinct from the **+$0.95 / −$1.056 worked single-price example** in [the take-profit accounting note](docs/take-profit-accounting.md), which is why this table's 52.4% break-even and that note's 52.64% break-even are two different, non-interchangeable numbers — not a typo.
+
 ## The strategy I am trying to test
 
 The main line of research is **zone-based micro-scalping on Polymarket BTC 5-minute Up/Down markets**. The bot is not validated for unattended live trading; the strategy remains a hypothesis.
