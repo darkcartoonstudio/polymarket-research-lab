@@ -10,7 +10,7 @@
 <style>
 :root {
   --bg: #07090c; --panel: #0e1218; --ligne: #1c2430; --fg: #e8edf2; --fg-muted: #6f7e8f;
-  --piste: #35d7d0; --zone: #e8a23a; --succes: #3ddc84; --or: #f0c05a;
+  --piste: #35d7d0; --zone: #e8a23a; --succes: #3ddc84; --or: #f0c05a; --perte: #e2615f;
   color-scheme: dark;
   --font-disp: 'Space Grotesk', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Menlo, monospace;
@@ -87,6 +87,24 @@ footer { font-size: 0.72rem; color: var(--fg-muted); line-height: 1.55; text-ali
   padding-top: 4px; }
 footer b { color: var(--fg); }
 
+.esperance { background: var(--panel); border: 1px solid var(--ligne); border-radius: 12px;
+  padding: 16px 18px; }
+.esperance h2 { font-family: var(--font-disp); font-size: 1rem; font-weight: 600; margin: 0 0 2px; }
+.esperance .eyebrow { margin-bottom: 10px; }
+.tableau-esperance { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.tableau-esperance th, .tableau-esperance td { text-align: right; padding: 6px 8px;
+  border-bottom: 1px solid var(--ligne); font-variant-numeric: tabular-nums; }
+.tableau-esperance th:first-child, .tableau-esperance td:first-child { text-align: left; }
+.tableau-esperance th { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--fg-muted); }
+.tableau-esperance tbody tr:last-child td { border-bottom: 0; }
+.tableau-esperance td.gagnants { color: var(--succes); }
+.tableau-esperance td.perdants { color: var(--perte); }
+.tableau-esperance tr.seuil td { font-weight: 700; color: var(--or);
+  background: color-mix(in srgb, var(--or) 10%, transparent); }
+.note-discrete { font-size: 0.68rem; color: var(--fg-muted); text-align: center;
+  margin-top: 10px; line-height: 1.4; }
+
 @media (max-width: 480px) { .hud { grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
   .carte { padding: 9px 6px; } .carte .val { font-size: 1.3rem; } }
 </style>
@@ -132,6 +150,26 @@ footer b { color: var(--fg); }
       <span>1000 $</span>
     </div>
     <div class="barre-fond"><div class="barre-remplie" id="barre"></div></div>
+  </div>
+
+  <div class="esperance">
+    <h2>Espérance par jour, selon le taux de réussite</h2>
+    <div class="eyebrow">1 520 trades · mise 1 $ · +0,9601 $ / −1,0567 $</div>
+    <table class="tableau-esperance">
+      <thead><tr><th>Win rate</th><th>Gagnants</th><th>Perdants</th><th>Profit net / jour</th></tr></thead>
+      <tbody>
+        <tr><td>100 %</td><td class="gagnants">1 520</td><td class="perdants">0</td><td>+1 459,35 $</td></tr>
+        <tr><td>90 %</td><td class="gagnants">1 368</td><td class="perdants">152</td><td>+1 152,70 $</td></tr>
+        <tr><td>80 %</td><td class="gagnants">1 216</td><td class="perdants">304</td><td>+846,05 $</td></tr>
+        <tr><td>70 %</td><td class="gagnants">1 064</td><td class="perdants">456</td><td>+539,40 $</td></tr>
+        <tr><td>65 %</td><td class="gagnants">988</td><td class="perdants">532</td><td>+386,35 $</td></tr>
+        <tr><td>60 %</td><td class="gagnants">912</td><td class="perdants">608</td><td>+233,30 $</td></tr>
+        <tr><td>55 %</td><td class="gagnants">836</td><td class="perdants">684</td><td>+79,80 $</td></tr>
+        <tr class="seuil"><td>52,4 %</td><td>796</td><td>724</td><td>≈ 0 $ — seuil</td></tr>
+        <tr><td>50 %</td><td class="gagnants">760</td><td class="perdants">760</td><td>−73,50 $</td></tr>
+      </tbody>
+    </table>
+    <div class="note-discrete">Espérance arithmétique si ce taux se maintenait de façon constante et répétée — pas une mesure.</div>
   </div>
 
   <footer>
