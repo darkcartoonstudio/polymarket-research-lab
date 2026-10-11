@@ -1,0 +1,11 @@
+stage_or_metric,value_usdc,notes
+stake,1.0000,Nominal stake used to buy shares
+entry_price,0.2000,Assumed entry price per share
+shares,5.0000,stake / entry_price
+entry_fee,0.0560,shares * 0.07 * entry_price * (1 - entry_price); illustrative fee model
+initial_cash_outflow,1.0560,stake + entry fee
+target_net_profit,0.9500,"Net profit goal, not total sale receipts"
+required_net_sale_proceeds,2.0060,sale proceeds after exit fees; initial cash outflow + net target
+net_pnl,0.9500,required_net_sale_proceeds - stake - entry fee
+full_loss_if_settles_worthless,-1.0560,Only if entire position loses all value and there is no recovery
+binary_payoff_break_even_win_rate_pct,52.6421,Assumes every win +0.95 and every loss -1.056; not target-hit rate

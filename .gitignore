@@ -1,0 +1,36 @@
+# Credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credential*
+*private*key*
+
+# Local account data / databases
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+logs/
+raw-data/
+account-data/
+
+# Binaries / archives
+*.exe
+*.dll
+*.rar
+*.7z
+*.zip
+*.bin
+
+# Python/build/editor
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If these research notes help your work, please cite the repository and the specific note you used."
+title: "Polymarket Research Lab"
+type: other
+authors:
+  - name: "darkcartoonstudio"
+version: "0.1.0"
+date-released: "2026-10-11"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/darkcartoonstudio/polymarket-research-lab"
+abstract: "A trader’s public research journal documenting zone-based Polymarket BTC 5-minute micro-scalping experiments, order-book data, execution realism, exploratory results, failures, and an unproven goal of building toward a $1,000 account balance."

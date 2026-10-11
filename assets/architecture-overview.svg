@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Polymarket Research Lab architecture</title><desc id="desc">Two separate research tracks share data integrity and validation principles: zone micro-scalping and directional prediction.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#07101f"/><stop offset="1" stop-color="#11182b"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7085a8"/></marker><style>
+text{font-family:Inter,Arial,sans-serif;fill:#eaf0ff}.title{font-size:34px;font-weight:700}.sub{font-size:18px;fill:#a8b8d4}.lane{font-size:22px;font-weight:700}.head{font-size:18px;font-weight:700}.body{font-size:15px;fill:#becae0}.tiny{font-size:13px;fill:#9eafca}.card{fill:#121f34;stroke:#344a6b;stroke-width:1.5}.teal{fill:#102c35;stroke:#2a9b9c}.amber{fill:#302718;stroke:#bc8b3b}.purple{fill:#241d3b;stroke:#8669c6}.green{fill:#142e28;stroke:#469e7d}.line{stroke:#7085a8;stroke-width:2;fill:none;marker-end:url(#arrow)}
+</style></defs>
+<rect width="1600" height="1000" fill="url(#bg)" rx="24"/>
+<text x="70" y="74" class="title">Polymarket Research Lab</text><text x="70" y="108" class="sub">Two distinct research tracks · one standard: reproducible evidence before claims</text>
+<rect x="70" y="145" width="1460" height="350" rx="18" fill="#0b1425" stroke="#20324e"/>
+<text x="100" y="184" class="lane">TRACK A · Zone micro-scalping</text>
+<rect x="100" y="215" width="250" height="108" rx="12" class="card"/><text x="225" y="246" text-anchor="middle" class="head">Market data</text><text x="225" y="271" text-anchor="middle" class="body">Gamma / CLOB / RTDS</text><text x="225" y="294" text-anchor="middle" class="tiny">book + prices + resolution</text>
+<path d="M350 269 H390" class="line"/>
+<rect x="395" y="215" width="250" height="108" rx="12" class="teal"/><text x="520" y="246" text-anchor="middle" class="head">Data integrity</text><text x="520" y="271" text-anchor="middle" class="body">timestamps · freshness</text><text x="520" y="294" text-anchor="middle" class="tiny">snapshots / deltas / resync</text>
+<path d="M645 269 H685" class="line"/>
+<rect x="690" y="215" width="250" height="108" rx="12" class="amber"/><text x="815" y="246" text-anchor="middle" class="head">Feature research</text><text x="815" y="271" text-anchor="middle" class="body">price bands · L2 imbalance</text><text x="815" y="294" text-anchor="middle" class="tiny">hypotheses frozen before test</text>
+<path d="M940 269 H980" class="line"/>
+<rect x="985" y="215" width="220" height="108" rx="12" class="card"/><text x="1095" y="246" text-anchor="middle" class="head">Execution replay</text><text x="1095" y="271" text-anchor="middle" class="body">bid/ask · fees · depth</text><text x="1095" y="294" text-anchor="middle" class="tiny">partial fills · latency</text>
+<path d="M1205 269 H1245" class="line"/>
+<rect x="1250" y="215" width="240" height="108" rx="12" class="purple"/><text x="1370" y="246" text-anchor="middle" class="head">Evaluate</text><text x="1370" y="271" text-anchor="middle" class="body">expectancy · drawdown</text><text x="1370" y="294" text-anchor="middle" class="tiny">walk-forward · uncertainty</text>
+<text x="100" y="367" class="body">Question: can an entry zone and market state support a realistic, positive net outcome?</text>
+<text x="100" y="399" class="tiny">Current documented replay: no positive expectancy demonstrated; full historical L2 depth was unavailable.</text>
+<rect x="70" y="515" width="1460" height="280" rx="18" fill="#0b1425" stroke="#20324e"/>
+<text x="100" y="554" class="lane">TRACK B · Directional observer / model</text>
+<rect x="100" y="585" width="270" height="105" rx="12" class="card"/><text x="235" y="616" text-anchor="middle" class="head">Inputs</text><text x="235" y="641" text-anchor="middle" class="body">Polymarket odds + multi-feed</text><text x="235" y="664" text-anchor="middle" class="tiny">reference prices / time</text>
+<path d="M370 637 H420" class="line"/>
+<rect x="425" y="585" width="270" height="105" rx="12" class="teal"/><text x="560" y="616" text-anchor="middle" class="head">Feature / signal</text><text x="560" y="641" text-anchor="middle" class="body">EMA · distance · momentum</text><text x="560" y="664" text-anchor="middle" class="tiny">freeze model and timestamp</text>
+<path d="M695 637 H745" class="line"/>
+<rect x="750" y="585" width="270" height="105" rx="12" class="purple"/><text x="885" y="616" text-anchor="middle" class="head">O1 · Direction</text><text x="885" y="641" text-anchor="middle" class="body">prediction vs resolution</text><text x="885" y="664" text-anchor="middle" class="tiny">calibration / baseline / CI</text>
+<path d="M1020 637 H1070" class="line"/>
+<rect x="1075" y="585" width="415" height="105" rx="12" class="green"/><text x="1282" y="616" text-anchor="middle" class="head">O2 · Virtual trading</text><text x="1282" y="641" text-anchor="middle" class="body">independent entry/exit and net P&amp;L</text><text x="1282" y="664" text-anchor="middle" class="tiny">prediction accuracy ≠ trading expectancy</text>
+<text x="100" y="740" class="tiny">Reviewed continuous score: not historically replayed or walk-forward validated in the report snapshot.</text>
+<rect x="70" y="820" width="1460" height="115" rx="18" fill="#13271f" stroke="#377b60"/>
+<text x="100" y="860" class="head">Shared research gate</text><text x="100" y="890" class="body">Data validity → execution realism → statistical validation → paper observation. No “validated edge” claim until every gate has evidence.</text>
+<text x="100" y="962" class="tiny">Illustrative architecture summary based on prior research reports; it is not a deployment diagram or proof of performance.</text>
+</svg>

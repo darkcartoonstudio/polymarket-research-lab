@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Top of book is not full execution</title><desc id="desc">A small displayed best ask and bid sit in front of multiple price levels. An order larger than the first level must sweep levels and pay a different average price; the diagram shows why top-of-book data alone cannot determine fills.</desc>
+<rect width="1200" height="440" rx="26" fill="#091322"/><text x="48" y="54" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">TOP OF BOOK ≠ EXECUTION REALITY</text><text x="48" y="82" fill="#aab9d5" font-family="Inter,Arial,sans-serif" font-size="14">Illustrative only — not actual Polymarket order-book data</text>
+<g font-family="Inter,Arial,sans-serif">
+<rect x="48" y="116" width="520" height="258" rx="18" fill="#111f35" stroke="#385277"/><text x="78" y="150" fill="#dfeaff" font-size="18" font-weight="700">Displayed book</text>
+<text x="90" y="185" fill="#a8bbd9" font-size="13">BID (buyers)</text><text x="340" y="185" fill="#a8bbd9" font-size="13">ASK (sellers)</text>
+<rect x="78" y="202" width="195" height="32" rx="6" fill="#1d604e"/><text x="94" y="223" fill="#d9fff2" font-size="14">0.48 · size 20</text>
+<rect x="310" y="202" width="215" height="32" rx="6" fill="#723a4c"/><text x="326" y="223" fill="#ffe1e8" font-size="14">0.50 · size 5 ← best ask</text>
+<rect x="78" y="245" width="195" height="32" rx="6" fill="#1a4a3e"/><text x="94" y="266" fill="#d9fff2" font-size="14">0.47 · size 60</text>
+<rect x="310" y="245" width="215" height="32" rx="6" fill="#5b3040"/><text x="326" y="266" fill="#ffe1e8" font-size="14">0.51 · size 18</text>
+<rect x="78" y="288" width="195" height="32" rx="6" fill="#173b34"/><text x="94" y="309" fill="#d9fff2" font-size="14">0.46 · size 80</text>
+<rect x="310" y="288" width="215" height="32" rx="6" fill="#452837"/><text x="326" y="309" fill="#ffe1e8" font-size="14">0.53 · size 100</text>
+<text x="78" y="350" fill="#afbed6" font-size="12">Assume an order wants to buy 20 units...</text>
+<path d="M588 238 H640" stroke="#86a3ff" stroke-width="3"/><path d="M632 230 L644 238 L632 246" fill="none" stroke="#86a3ff" stroke-width="3"/>
+<rect x="660" y="116" width="492" height="258" rx="18" fill="#172a35" stroke="#2ba489"/><text x="690" y="150" fill="#d3fff3" font-size="18" font-weight="700">What execution may require</text>
+<text x="690" y="190" fill="#d1f5eb" font-size="14">5 units at 0.50</text><rect x="690" y="202" width="120" height="18" rx="5" fill="#34b99b"/>
+<text x="690" y="244" fill="#d1f5eb" font-size="14">15 units at deeper levels</text><rect x="690" y="256" width="255" height="18" rx="5" fill="#34b99b" opacity="0.75"/>
+<text x="690" y="306" fill="#fff0c6" font-size="14" font-weight="700">Average entry price may exceed 0.50</text><text x="690" y="329" fill="#bdd9d2" font-size="12">Real fills also depend on latency, orders arriving first,</text><text x="690" y="347" fill="#bdd9d2" font-size="12">order type, cancellations, fees, and partial matching.</text>
+</g></svg>
